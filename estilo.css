@@ -50,3 +50,16 @@ a.rojo {
     font-weight: bold;
     font-family: Verdana,sans-serif;
 }
+
+form {
+    position: relative;
+    left: 33%;
+}
+
+label {
+    color: #9b9b9b;
+    font-size: 11px;
+    line-height: normal;
+    margin-bottom: 5px;
+    display: block;
+}
