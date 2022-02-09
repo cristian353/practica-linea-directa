@@ -80,3 +80,23 @@ input,textarea {
     background-color: white;
 }
 
+.checkbox::content {
+    background-color: red;
+    border-radius: 4px;
+}
+
+.button {
+  border: 1px transparent;
+  background-color: #d9384a;
+  color: white;
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  left: 5%;
+}
+
+.buton:focus {
+    color: black;
+    background-color: #d9384a;
+}
