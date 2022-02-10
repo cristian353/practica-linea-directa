@@ -11,13 +11,23 @@
 <body>
     <div class="contenedor">
         <div class="seleccion-idioma">
-            <a  href="./index.html">ES</a>
+            <a class="rojo" href="./index.html">ES</a>
             |
-            <a class="rojo" href="./index_en.html">EN</a>
+            <a  href="./index_en.html">EN</a>
         </div>
         <img  class="img-logo"src="./img/img-logo.jpg" alt="Imagen no">
-        <h3 class="texto-centrado titulo-login">Acceso al area de clientes<h3>
+        <h3class="texto-centrado titulo-login">Login<h3>
+        <form action="web.pahp" method="get">
+            <p>ID:</p>
+                <input type="text" class="campo" placeholder="0999999n">
+                <br>
+                <br>
+            <p>Password</p>
+                <input type="password" class="campo">
+
+            <p><input type="checkbox" class="checkbox">Remember me</p>
+
+            <input type="submit" value="Login" class="button">
+        </form>
     </div>
 </body>
-</html>
-
