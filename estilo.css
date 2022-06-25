@@ -92,6 +92,7 @@ input,textarea {
     height: 50px;
     background-color: #d9384a;
     color: white;
+    align: center;
 }
 
 .button-registro {
